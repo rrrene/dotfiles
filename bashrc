@@ -3,6 +3,11 @@ if [ -f /etc/bash.bashrc ]; then
 	. /etc/bash.bashrc
 fi
 
+# "force" bash-completion, even if it's not enabled in /etc/bash.bashrc
+if [ -f /etc/bash_completion ]; then
+  . /etc/bash_completion
+fi
+
 source ~/.bash/common
 source ~/.bash/prompt
 source ~/.bash/git
