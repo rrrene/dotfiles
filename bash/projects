@@ -1,6 +1,6 @@
 # projects settings
 
-PROJECT_DIR=$home/github
+PROJECT_DIR=$HOME/projects
 
 _projects() {
   cur=`_get_cword`
