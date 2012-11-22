@@ -1,0 +1,14 @@
+# projects settings
+
+PROJECT_DIR=$home/github
+
+_projects() {
+  cur=`_get_cword`
+  COMPREPLY=( $( compgen -W "\$( command ls $PROJECT_DIR )" -- $cur ) )
+}
+
+p() {
+  project=$1
+  cd "$PROJECT_DIR/$project"
+}
+complete -F _projects p

@@ -1,0 +1,11 @@
+= Personal dotfiles
+
+== Install
+
+  git clone git://github.com/splattael/dotfiles ~/.dotfiles
+  cd ~/.dotfiles
+  rake install
+
+== Taken from
+
+  https://github.com/splattael/dotfiles
