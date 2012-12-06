@@ -12,11 +12,9 @@
   autosetuprebase = always
 [push]
   default = current
-[url "git://github.com/"]
-  insteadOf = gh:
 
-[url "git@github.com:"]
-  insteadOf = wgh:
+[url "git@github.com:rrrene/"]
+  insteadOf = gh:
 
 [url "git@office.neopoly.de:"]
   insteadOf = neo:

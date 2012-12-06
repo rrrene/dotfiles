@@ -1,6 +1,8 @@
 # aliases
 alias wi="whois -h whois.thur.de"
 
+alias ls="ls --color=auto"
+
 # common
 export EDITOR=vim
 export PATH="$PATH:$HOME/bin"
