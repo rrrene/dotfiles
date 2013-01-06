@@ -22,3 +22,5 @@
 [url "git@git.zilium.de:rrrene/"]
   insteadOf = z:
 
+[user]
+	name = René Föhring
