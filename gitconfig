@@ -13,6 +13,9 @@
 [push]
   default = current
 
+[url "git@bitbucket.org:rrrene/"]
+  insteadOf = bb:
+
 [url "git@github.com:rrrene/"]
   insteadOf = gh:
 
