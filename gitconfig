@@ -2,8 +2,9 @@
 [alias]
   co = checkout
   lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %C(bold)%s %Creset| %Cgreen%cr %C(white)%cn%Creset' --abbrev-commit --date=relative
-  md = !"git co develop && git pull && git co master && git pull && git merge develop && git push && git co develop" 
-  mp = !"git co develop && git pull && git co preview && git pull && git merge develop && git push && git co develop" 
+  md = !"git co develop && git pull && git co master && git pull && git merge develop && git push && git co develop"
+  mp = !"git co develop && git pull && git co preview && git pull && git merge develop && git push && git co develop"
+  mb = !"git co master && git pull && git co beta && git pull && git merge master && git push && git co master"
 [color]
   branch = auto
   diff = auto
@@ -27,3 +28,4 @@
 
 [user]
 	name = René Föhring
+

@@ -1,0 +1,14 @@
+# manager2 jump-to settings
+
+MANAGER2_DIR=$HOME/projects/manager2
+
+_manager2_projects() {
+  cur=`_get_cword`
+  COMPREPLY=( $( compgen -W "\$( command ls $MANAGER2_DIR )" -- $cur ) )
+}
+
+m() {
+  project=$1
+  cd "$MANAGER2_DIR/$project"
+}
+complete -F _manager2_projects m
