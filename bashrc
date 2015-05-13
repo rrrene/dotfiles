@@ -14,6 +14,7 @@ source ~/.bash/git
 source ~/.bash/rvm
 source ~/.bash/ruby
 source ~/.bash/projects
+source ~/.bash/manager2
 
 # use .localrc for settings specific to one system
 if [ -f ~/.localrc ]; then
