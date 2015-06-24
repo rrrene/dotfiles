@@ -3,6 +3,12 @@ alias wi="whois -h whois.thur.de"
 
 alias ls="ls --color=auto"
 
+pp() {
+  TMPFILE="$(mktemp)"
+  cp $1 $TMPFILE
+  cat $TMPFILE | python -m json.tool > $1
+}
+
 # common
 export EDITOR=vim
 export PATH="$PATH:$HOME/bin"
