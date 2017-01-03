@@ -1,7 +1,14 @@
 # aliases
 alias wi="whois -h whois.thur.de"
 
-alias ls="ls --color=auto"
+if [[ "$OSTYPE" == "linux-gnu" ]]; then
+  # Linux
+  alias ls="ls --color=auto"
+elif [[ "$OSTYPE" == "darwin"* ]]; then
+  # Mac OSX
+  export CLICOLOR=1
+  export LSCOLORS=ExFxCxDxBxegedabagacad
+fi
 
 pp() {
   TMPFILE="$(mktemp)"

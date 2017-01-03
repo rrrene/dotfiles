@@ -14,10 +14,11 @@ source ~/.bash/git
 source ~/.bash/rvm
 source ~/.bash/ruby
 source ~/.bash/projects
-source ~/.bash/manager2
 
 # use .localrc for settings specific to one system
 if [ -f ~/.localrc ]; then
   source ~/.localrc
 fi
+
+# RVM
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
