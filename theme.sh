@@ -2,7 +2,7 @@
 
 tm_icon="☀"
 tm_color_active=colour5
-tm_color_inactive=colour10
+tm_color_inactive=colour8
 tm_color_feature=colour5
 tm_color_music=colour8
 tm_active_border_color=colour5
@@ -49,12 +49,12 @@ set-option -g display-panes-colour $tm_color_inactive
 # clock
 set-window-option -g clock-mode-colour $tm_color_active
 
-tm_tunes="#[fg=$tm_color_music]#(osascript ~/.dotfiles/applescripts/tunes.scpt)"
-tm_tidal="#[fg=$tm_color_music]#(osascript ~/.dotfiles/applescripts/tidal.scpt)"
-tm_spotify="#[fg=$tm_color_music]#(osascript ~/.dotfiles/applescripts/spotify.scpt)"
-tm_itunes="#[fg=$tm_color_music]#(osascript ~/.dotfiles/applescripts/itunes.scpt)"
-tm_rdio="#[fg=$tm_color_music]#(osascript ~/.dotfiles/applescripts/rdio.scpt)"
-tm_battery="#(~/.dotfiles/bin/battery_indicator.sh)"
+tm_tunes="#[fg=$tm_color_music]#(osascript ~/projects/cmg-dev-dotfilesdotfiles/applescripts/tunes.scpt)"
+tm_tidal="#[fg=$tm_color_music]#(osascript ~/projects/cmg-dev-dotfilesdotfiles/applescripts/tidal.scpt)"
+tm_spotify="#[fg=$tm_color_music]#(osascript ~/projects/cmg-dev-dotfilesdotfiles/applescripts/spotify.scpt)"
+tm_itunes="#[fg=$tm_color_music]#(osascript ~/projects/cmg-dev-dotfilesdotfiles/applescripts/itunes.scpt)"
+tm_rdio="#[fg=$tm_color_music]#(osascript ~/projects/cmg-dev-dotfilesdotfiles/applescripts/rdio.scpt)"
+tm_battery="#(~/projects/cmg-dev-dotfilesdotfiles/bin/battery_indicator.sh)"
 
 tm_date="#[fg=$tm_color_inactive] %R %d %b"
 tm_host="#[fg=$tm_color_feature,bold]#h"

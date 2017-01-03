@@ -172,6 +172,13 @@ export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig/
 
 PATH=/usr/local/bin:${PATH/:\/usr\/local\/bin}
 
+# common
+export EDITOR=vim
+export PATH="$PATH:$HOME/bin"
+export PATH="$PATH:$HOME/.rvm/bin"      # Add RVM to PATH for scripting
+export PATH="$PATH:$HOME/elixir/bin"
+export PATH="$PATH:./node_modules/.bin"
+
 # use .localrc for settings specific to one system
 if [ -f ~/.localrc ]; then
   source ~/.localrc
