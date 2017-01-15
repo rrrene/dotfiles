@@ -25,9 +25,6 @@
 [url "git@github.com:rrrene/"]
   insteadOf = gh:
 
-[url "git@office.neopoly.de:"]
-  insteadOf = neo:
-
 [url "git@git.zilium.de:rrrene/"]
   insteadOf = z:
 
