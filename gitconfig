@@ -13,6 +13,9 @@
   diff = auto
   status = auto
 
+[commit]
+  template = ~/.gitmessage
+
 [branch]
   autosetuprebase = always
 
