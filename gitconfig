@@ -33,4 +33,6 @@
 
 [user]
 	name = René Föhring
-  email = rene.foehring@5minds.de
+	email = rf@bamaru.de
+[core]
+	editor = vi
