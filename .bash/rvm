@@ -19,3 +19,6 @@ _g() {
 
 # register completion
 complete -F _g g
+
+# RVM
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*

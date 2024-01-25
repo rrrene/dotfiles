@@ -1,0 +1,6 @@
+
+pp() {
+  TMPFILE="$(mktemp)"
+  cp $1 $TMPFILE
+  cat $TMPFILE | python -m json.tool > $1
+}

@@ -1,0 +1,4 @@
+alias mt="mix test"
+alias tt="mix test"
+
+export ERL_AFLAGS="-kernel shell_history enabled"
